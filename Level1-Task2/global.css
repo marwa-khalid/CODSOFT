@@ -1,0 +1,32 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    transform: scale(0.85);
+    transform-origin: top left;
+  }
+  
+:root {
+  --font-roboto: Roboto;
+  --font-inter: Inter;
+  --font-abhaya-libre: "Abhaya Libre";
+
+  --font-size-9xs: 4px;
+  --font-size-5xl: 24px;
+  --font-size-29xl: 48px;
+  --font-size-11xl: 30px;
+
+  --color-white: #fff;
+  --color-gray-100: #fafafa;
+  --color-gray-200: #808080;
+  --color-lightgray: #d3d3d3;
+  --color-black: #000;
+  --color-darkslategray: #285467;
+  --color-green: #008000;
+  --color-silver: #c1c1c1;
+
+  --br-9xs: 4px;
+  --br-base: 16px;
+  --br-xl: 20px;
+}
