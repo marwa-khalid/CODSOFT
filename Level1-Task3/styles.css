@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.calculator {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  width: 400px;
+  text-align: center;
+  background-color: #0f0f3a; /* Set the background color you prefer */
+  padding: 20px; /* Add some padding for spacing */
+}
+
+.display {
+  grid-column: span 4;
+  background-color: #eee;
+  font-size: 24px;
+  padding: 10px;
+}
+
+.button {
+  background-color: #333;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
