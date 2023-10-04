@@ -1,4 +1,4 @@
 Landing page
 hosted on 
 
-https://marwa-resume-task1.surge.sh/
+https://landingpage-task2-marwa.surge.sh/
